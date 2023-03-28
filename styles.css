@@ -1,0 +1,104 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    background-color: #56D6DA;
+    font-family: 'Delicious Handrawn', cursive;
+}
+
+label{
+    font-size: 1.25rem;
+    font-family: 'Delicious Handrawn', cursive;
+    text-align: center;
+}
+
+.pg{
+    display: block;
+    text-align: center;
+    color: darkblue;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 3rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.pg-box{
+    height: 500px;
+    width:450px;
+    box-shadow: 0 0 8px black;
+    text-align: center; 
+    background-color: #F2BE22;
+}
+
+.pg-text{
+    font-size: 2rem;
+}
+
+.length-box{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#imgC{
+    height: 30px;
+    width: 30px;
+    padding: 0 10px;
+}
+
+img{
+    height: 30px;
+    width: 30px;
+}
+
+.password{
+    display: inline-block;
+    background-color:azure;
+    color: red;
+    width: 250px;
+    height: 40px;
+    border-style: inset;
+    align-items: center;
+    justify-items: center;
+}
+
+.pg-form{
+    padding: 0 0 20px 0;
+    display: block;
+}
+
+.cBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: self-start;
+    width: 300px;
+    padding: 3px 0 0 70px;
+}
+
+.input{
+    height: 25px;
+    width: 25px;
+}
+
+.btn-box{
+    padding-top: 30px;
+}
+
+.btn{
+    height: 30px;
+    width: 100px;
+    background-color:lightyellow;
+    box-shadow: offset;
+    font-size: large;
+    z-index: 2;
+    border:3px solid black;
+    font-family: 'Delicious Handrawn', cursive;
+}
+
+.btn:hover{
+    background-color: #9E28FB;
+}
