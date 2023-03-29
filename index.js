@@ -136,6 +136,10 @@ function generatePassword(v,fUc,fLc,fd,fsc,e){
 $("#copy").on('click',function(){
     navigator.clipboard.writeText(`${password}`)
     .then(() => {
+        $(".cpymsg").html("copied")
+        setTimeout(()=>{
+            $(".cpymsg").html("")
+        },1000)
         console.log('Content copied to clipboard');
       })
     })

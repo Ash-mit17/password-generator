@@ -26,6 +26,11 @@ label{
     justify-content: center;
 }
 
+.cpymsg{
+    display: inline;
+    font-size: 23px;
+}
+
 .pg-box{
     height: 500px;
     width:450px;

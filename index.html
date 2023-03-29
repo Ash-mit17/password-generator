@@ -6,51 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Password Generator</title>
     <link rel="stylesheet" href="styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="pg">
-      <p style="margin-top: 0px; font-size: larger;">Cool Password Generator</p>
+      <p style="margin-top: 0px; font-size: larger">Cool Password Generator</p>
     </div>
     <div class="container">
       <div class="pg-box">
         <div class="pg-text">
-          <p style="font-weight: 300; margin: 20px 0 12px 0;">PASSWORD</p>
+          <p style="font-weight: 300; margin: 20px 0 12px 0">PASSWORD</p>
         </div>
         <div class="password">
-            <p class="passwordBox" style="font-size: 25px; margin-top: 6px;">Password</p> 
+          <p class="passwordBox" style="font-size: 25px; margin-top: 6px">
+            Password
+          </p>
         </div>
-        <div style="display: inline-block;" id="copy"><img id="imgC" src="copy.png" alt=""></div>
+        <div style="display: inline-block" id="copy">
+          <img id="imgC" src="copy.png" alt="" />
+          <p class="cpymsg"></p>
+        </div>
         <form name="pg-form" class="pg-form">
-            <div class="length-box">
-                <p style="font-size: 25px;">Min:4</p>
-                <input type="range" min="4" max="20" value="10" id="slider" >
-                <p style="font-size: 25px;">Max:20</p>
-            </div>
-            <p id="lenVal" style="margin: 0px 0px;font-size: 25px;">Length Value:10</p>
-            <h2>Contains</h2>
-            <div class="cBox">
-                <label for="">UpperCase(A-Z)</label>
-                <input class="input" type="checkbox" name="easy" id="cboxUC">
-            </div>
-            <div class="cBox">
-                <label for="">LowerCase(a-z)</label>
-                <input class="input" type="checkbox" name="medium" id="cboxLC">
-            </div>
-            <div class="cBox">
-                <label for="">Digit(0-9)</label>
-                <input class="input" type="checkbox" name="hard" id="cboxD">
-            </div>
-            <div class="cBox">
-              <label for="">SpecialChar(!#$@)</label>
-              <input class="input" type="checkbox" name="hard" id="cboxSC">
+          <div class="length-box">
+            <p style="font-size: 25px">Min:4</p>
+            <input type="range" min="4" max="20" value="10" id="slider" />
+            <p style="font-size: 25px">Max:20</p>
           </div>
-            <div class="btn-box">
-                <button class="btn">Generate</button>
-            </div>
+          <p id="lenVal" style="margin: 0px 0px; font-size: 25px">
+            Length Value:10
+          </p>
+          <h2>Contains</h2>
+          <div class="cBox">
+            <label for="">UpperCase(A-Z)</label>
+            <input class="input" type="checkbox" name="easy" id="cboxUC" />
+          </div>
+          <div class="cBox">
+            <label for="">LowerCase(a-z)</label>
+            <input class="input" type="checkbox" name="medium" id="cboxLC" />
+          </div>
+          <div class="cBox">
+            <label for="">Digit(0-9)</label>
+            <input class="input" type="checkbox" name="hard" id="cboxD" />
+          </div>
+          <div class="cBox">
+            <label for="">SpecialChar(!#$@)</label>
+            <input class="input" type="checkbox" name="hard" id="cboxSC" />
+          </div>
+          <div class="btn-box">
+            <button class="btn">Generate</button>
+          </div>
         </form>
       </div>
     </div>
